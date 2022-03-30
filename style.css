@@ -1,0 +1,298 @@
+*{
+    font-family:arial;
+    
+}
+body{
+    margin:0;
+    padding:0;
+    border:;
+    min-width: 400px;
+    max-width: 1900px;
+
+
+}
+.main{
+    display:flex;
+    background-color:black;
+    width:100%;
+    height:110px;
+    box-shadow: 0px 3px 5px grey;
+}
+.left{
+    display:flex;
+    width:70%;
+}
+.left img{
+    width:350px;
+    height:110px;
+}
+
+
+
+.left ul{
+    border:;
+    width:750px;
+    height:110px;
+    margin:0px 0px 0px 0px;
+}
+.left li{
+    display:inline-block;
+    border-right:1px solid whitesmoke;
+    width:160px;
+    height:70px;
+    margin:10px 20px 2px 0px;
+    padding:30px 0px 2px 0px;
+    color:white;
+    float:left;
+
+}
+.right small{
+    color:white;
+    text-decoration:underline red;
+}
+.right{
+    width:30%;
+    
+    background-color:;
+    text-align:right;
+}
+.right img{
+    width:25px;
+    height:25px;
+    
+
+}
+.right button{
+    background-color:rgb(153, 149, 149);
+    color:lightgray;
+    border-radius:4px;
+    margin:20px 0px 0px 0px;
+    text-decoration:underline red;
+}
+input {
+    width:350px;
+    background-color:white;
+    height:30px;
+    border-radius:4px;
+    background-image:url(./search\ image.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:right;
+}
+h1{
+    margin:10px 0px 0px 0px;
+}
+
+
+
+.header2 ul{
+    background-color:rgb(229, 235, 250);
+    height:25px;
+    margin:0px 0px 0px 20px;
+}
+.header2 ul li{
+    display:inline-block;
+    text-transform: uppercase;
+    border:;
+    margin:0px 0px 0px 20px;
+    padding:5px 0px 10px 10px;
+    color:royalblue;
+    
+}
+.main2{
+    display: flex;
+}
+.left2 {
+    border:;
+    width: 70%;
+
+}
+.left2 table{
+    border:;
+    margin:0px 0px 5px 20px;
+    width:100%;
+
+}
+.left2 table tr>td{
+    padding:0px 0px 5px 20px;
+    border-right:1px solid rgb(105, 103, 103);
+    width:800px;
+}
+.left2 #t1{
+    color:red;
+    font-size:x-large;
+    padding:0px 0px 0px 20px;
+}
+.left2 #t2{
+    color:red;
+}
+.left2 p{
+    text-indent: 15px;;
+}
+.left2 #para{
+    color:lightgrey;
+}
+.left2 .small{
+    color:lightgrey;
+    padding:15px 0px 0px 0px;
+    text-indent:15px;
+}
+h3 ,h1{
+    text-indent: 15px;
+}
+.paras span{
+    color:royalblue;
+    padding:0px 0px 0px 20px;
+
+}
+p{
+    text-align:justify;
+}
+
+
+.left2 .table1{
+    text-align:center;
+    margin:0px 0px 0px 0px;
+    width:relative;
+    
+}
+
+.left2 #td1 span{
+    color:royalblue;
+    
+}
+.left2 .table1 tr>#td1{
+    border-right:none;
+    background-color:rgb(192, 206, 245);
+}
+.left2 #span{
+    border-left:1px solid;;
+    color:royalblue;
+    width:200px;
+    padding:10px 0px 0px 0px;
+    margin:0px 0px 0px 30px;
+}
+.right2{
+    border:;
+    width:30%;
+    background-color:white;
+    
+}
+.head{
+    background-color:rgb(7, 38, 173);
+    margin:0px 0px 0px 0px; 
+    width:470px;
+    height:100px;
+    text-indent:10px;
+
+    
+}
+.right2 .head h3{
+    color:white;
+
+   padding:0px 0px 10px 0px;
+    background-color:;
+    width:40%; 
+    text-align:left;
+    font-size:x-large;
+
+    
+}
+.right2 .head ul{
+    text-align:left;
+    height:70px;
+    margin:10px 0px 0px 0px;
+
+
+}
+.head ul li{
+    display:inline;
+    color:white;
+    background-color:darkcyan;
+    border:;
+    padding:7px 07px 7px 7px;
+     
+    
+}
+.head ul li:hover{
+    background-color:white;
+    color:darkcyan;
+}
+.right2 .box{
+    background-color:rgb(245, 251, 253);
+    text-indent:20px;
+    width:470px;
+    text-indent: 20px;
+    border-radius:3px;
+}
+
+.box small{
+    color:royalblue;
+}
+.box small>button{
+    background-color:rgb(250, 59, 59);
+    width:200px;
+    height:50px;
+    margin:5px 0px 0px 5px;
+    border-radius:4px;
+    color:white;
+    box-shadow: none;
+    font-weight:900;
+}
+.M{
+    display:flex;
+    background-color:rgb(218, 237, 252);
+    border-radius:5px;
+    width:450px;
+}
+.M h3{
+    text-align:;
+
+    width:70%;
+
+}
+.M span{
+    
+    padding:20px 0px 0px 0px;
+    color:royalblue;
+
+}
+.inpt input{
+    margin:10px 0px 0px 20px;
+    height:40px;
+    padding:0px 0px 0px 10px;
+    border-radius:2px;
+    width:440px;
+}
+.tble{
+    border:;
+    margin:10px 0px 0px 10px;
+
+}
+.tble #span{
+    color:royalblue;
+    font-weight:normal;
+}
+.tble td{
+    font-weight:bolder;
+    font-size:20px;
+    
+    width:0px;
+    
+}
+.tble small{
+    color:red;
+}
+.tble .bgcolor{
+    background-color:rgb(194, 225, 255);
+}
+.tble table{
+    margin:10px 0px 0px 10px;
+    width:450px;
+}
+#green{
+    color:green;
+}
+.M{
+    WIDTH:463px;
+}
